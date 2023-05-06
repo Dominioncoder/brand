@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 998;
+  transition: all o.3s ease;
+   font-family: sans-serif;
+}
+nav.sticky {
+  background-color: skyblue;
+  padding: 13px 0;
+}
+nav.navbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+nav.navbar.logo a {
+  font-weight: 500;
+  font-size: 35px;
+  color: skyblue;
+}
+nav.sticky.navbar .logo a {
+  color: white;
+}
+nav .navbar .menu {
+  display: flex;
+  position: relative;
+}
+nav .navbar .menu li {
+  list-style: none;
+  margin: 0px 8px;
+}
+.navbar .menu a {
+  font-size: 18px;
+  font-weight: 500;
+  color: darkslategray;
+  padding: 6px 0;
+  transition: all 0.4s ease;
+}
+.navbar .menu a :hover {
+  color: skyblue;
+}
+nav .sticky .menu a {
+  color: white;
+}
+nav .menu .sticky a :hover {
+  color: darkslategray;
+}
+.socails {
+  text-align: center;
+  align-items:center;
+  padding: 5px 0 10px;
+}
+.socails img {
+  cursor: pointer;
+  height: 30px;
+  margin: 10px;
+}
+  
+
+
+
